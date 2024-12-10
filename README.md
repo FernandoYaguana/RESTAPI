@@ -14,25 +14,28 @@ To clone this repository to your local machine and start working with the projec
 
 2. Open the terminal or command line and run the following command to clone the repository:
 
-    bash
-    https://github.com/FernandoYaguana/RESTAPI.git
+   bash
+
+   https://github.com/FernandoYaguana/RESTAPI.git
    
-3. To verify that the repository was cloned correctly, enter the project directory:
+4. To verify that the repository was cloned correctly, enter the project directory:
    
     bash
     cd repository-name
     
 ## Usage
 
-1. Open Netbeans
+1. Open Visual Studio Code
 
-2. In the File section, click on Open Project and go to the folder where we saved the Project
+2. Make sure you have Node.js installed.
+   bash
+   npm install express
 
-3. Click on Open Project
+4. Click on Open Project
 
-4. If you have problems with Maven, go to step 5, otherwise go to step 6
+5. If you have problems with Maven, go to step 5, otherwise go to step 6
 
-5. If you have problems with Maven, you can download it from [here](https://maven.apache.org/) and add the directory
+6. If you have problems with Maven, you can download it from [here](https://maven.apache.org/) and add the directory
    
 of the folder that was generated when you unzipped the file, in the system environment variables in the path section.
 
