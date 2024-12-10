@@ -14,13 +14,12 @@ To clone this repository to your local machine and start working with the projec
 
 2. Open the terminal or command line and run the following command to clone the repository:
 
-   bash
-
-   https://github.com/FernandoYaguana/RESTAPI.git
-   
+    ```bash
+   git clone https://github.com/FernandoYaguana/RESTAPI.git
+    
 4. To verify that the repository was cloned correctly, enter the project directory:
    
-    bash
+    ``` bash
     cd repository-name
     
 ## Usage
@@ -28,34 +27,24 @@ To clone this repository to your local machine and start working with the projec
 1. Open Visual Studio Code
 
 2. Make sure you have Node.js installed.
-   bash
+   ```bash
    npm install express
-
-4. Click on Open Project
-
-5. If you have problems with Maven, go to step 5, otherwise go to step 6
-
-6. If you have problems with Maven, you can download it from [here](https://maven.apache.org/) and add the directory
    
-of the folder that was generated when you unzipped the file, in the system environment variables in the path section.
-
-   - After performing this process, go to your Netbeans and in the tools section, click on option
-     
-   - Then go to the Java section
-     
-   - Look for Maven
-     
-   - In the MavenHome option, add the directory where you unzipped our Maven file and add it.
-     
-   - Click on Ok
-     
-   - Restart your NetBeans
-      
-6. Right click on your project
+3. Install dependencies
+   ```bash
+   npm install express
+4. Start the server with the following command:
+   ```bash
+   node index.js
+5. Go to your browser or use a tool like Postman to access http://localhost:3000. You should see the following JSON message:
+   ```json
+   {
+    "message": "Hola Mundo Desde RestApi"
+   }
    
-7. Click on Run
+## installation from docker
 
-8. A message will appear saying: Hola Mundo desde Java
+If you want to use this program from docker, enter this url, here you will find the docker commands
 
 ## Contribution
 
@@ -73,4 +62,4 @@ If you want to contribute to this project, please follow these instructions:
 
 ---
 
-Thank you for contributing to this task list project! If you have any questions, please feel free to open an issue in the repository.
+Thank you for contributing to this HELLO WORLD FROM REST API! If you have any questions, please feel free to open an issue in the repository.
